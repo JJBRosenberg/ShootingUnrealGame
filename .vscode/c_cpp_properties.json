@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "SecondShooterEditor Editor Win64 Development (SecondShooter)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_SecondShooter.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

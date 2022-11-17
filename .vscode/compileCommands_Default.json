@@ -1,0 +1,177 @@
+[
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\BTService_IfPlayerSeen.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\BTService_IfPlayerSeen.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\BTService_PlayerLocation.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\BTService_PlayerLocation.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\Gun.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\Gun.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\KillThemAllGameMode.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\KillThemAllGameMode.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\MyAIController.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\MyAIController.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\MyBTTask_ClearBlackboardValue.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\MyBTTask_ClearBlackboardValue.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\MyBTTask_Shoot.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\MyBTTask_Shoot.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\MyPawn.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\MyPawn.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\SecondShooter.Build.cs",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\SecondShooter.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\SecondShooter.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\SecondShooterCharacter.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\SecondShooterCharacter.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\SecondShooterGameMode.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\SecondShooterGameMode.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\SecondShooterProjectile.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\SecondShooterProjectile.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\ShooterCharacter.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\ShooterCharacter.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\ShooterPlayerController.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\ShooterPlayerController.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\TheGun.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\TheGun.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\TP_PickUpComponent.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\TP_PickUpComponent.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\TP_WeaponComponent.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\Source\\SecondShooter\\TP_WeaponComponent.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\.vscode\\compileCommands_Default\\SecondShooter.211.rsp\"",
+		"directory": "D:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	}
+]
