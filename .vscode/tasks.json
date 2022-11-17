@@ -1,0 +1,1247 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "SecondShooter Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"Win64",
+				"Debug",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"Win64",
+				"Debug",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SecondShooter Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SecondShooter",
+				"Win64",
+				"Debug",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SecondShooter Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SecondShooter",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"Win64",
+				"Development",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"Win64",
+				"Development",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SecondShooter Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SecondShooter",
+				"Win64",
+				"Development",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"Win64",
+				"Test",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"Win64",
+				"Test",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SecondShooter Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SecondShooter",
+				"Win64",
+				"Test",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SecondShooter Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SecondShooter",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter HoloLens Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter HoloLens Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SecondShooter HoloLens Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter HoloLens Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SecondShooter",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter HoloLens DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter HoloLens DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SecondShooter HoloLens DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter HoloLens DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SecondShooter",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter HoloLens Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter HoloLens Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SecondShooter HoloLens Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter HoloLens Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SecondShooter",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter HoloLens Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter HoloLens Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SecondShooter HoloLens Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter HoloLens Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SecondShooter",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter HoloLens Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter HoloLens Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SecondShooter HoloLens Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter HoloLens Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SecondShooter",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"IOS",
+				"Debug",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"IOS",
+				"Debug",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SecondShooter IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SecondShooter",
+				"IOS",
+				"Debug",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SecondShooter IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SecondShooter",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"IOS",
+				"Development",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"IOS",
+				"Development",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SecondShooter IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SecondShooter",
+				"IOS",
+				"Development",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"IOS",
+				"Test",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"IOS",
+				"Test",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SecondShooter IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SecondShooter",
+				"IOS",
+				"Test",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SecondShooter IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SecondShooter",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter TVOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"TVOS",
+				"Debug",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"TVOS",
+				"Debug",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SecondShooter TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SecondShooter",
+				"TVOS",
+				"Debug",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"TVOS",
+				"DebugGame",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"TVOS",
+				"DebugGame",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SecondShooter TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SecondShooter",
+				"TVOS",
+				"DebugGame",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter TVOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"TVOS",
+				"Development",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"TVOS",
+				"Development",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SecondShooter TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter TVOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SecondShooter",
+				"TVOS",
+				"Development",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter TVOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"TVOS",
+				"Test",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"TVOS",
+				"Test",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SecondShooter TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter TVOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SecondShooter",
+				"TVOS",
+				"Test",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"TVOS",
+				"Shipping",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooter",
+				"TVOS",
+				"Shipping",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SecondShooter TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooter TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SecondShooter",
+				"TVOS",
+				"Shipping",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooterEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooterEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooterEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooterEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SecondShooterEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooterEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SecondShooterEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooterEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooterEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooterEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooterEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SecondShooterEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooterEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SecondShooterEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooterEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooterEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooterEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SecondShooterEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SecondShooterEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "SecondShooterEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SecondShooterEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\jjros\\OneDrive\\Documents\\Unreal Projects\\SecondShooter - Copy\\SecondShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UnrealEngine\\UE_5.0"
+			}
+		}
+	]
+}
