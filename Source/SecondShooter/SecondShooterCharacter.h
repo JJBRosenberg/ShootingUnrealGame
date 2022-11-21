@@ -117,6 +117,7 @@ private:
 	UPROPERTY(EditDefaultsOnly)
 	float MaxHealth = 100;
 
+
 	UPROPERTY(VisibleAnywhere)
 	float Health;
 
