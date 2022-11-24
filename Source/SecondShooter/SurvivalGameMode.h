@@ -22,6 +22,9 @@ public:
 	virtual void PawnKilled(APawn* PawnKilled) override;
 
 
+	UFUNCTION(BlueprintCallable)
+	bool Pay(int cost);
+
 	UFUNCTION(BlueprintPure)
 	int GetScore() const;
 
