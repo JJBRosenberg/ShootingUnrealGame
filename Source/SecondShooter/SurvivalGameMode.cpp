@@ -15,7 +15,7 @@ int ASurvivalGameMode::GetScore() const {
 }
 
 bool ASurvivalGameMode::Pay(int cost) {
-    if(cost < Score){
+    if(cost <= Score){
         Score -= cost;
         return true;
     } else {
