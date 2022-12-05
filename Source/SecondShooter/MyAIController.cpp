@@ -17,13 +17,16 @@ void AMyAIController::BeginPlay(){
 void AMyAIController::Tick(float DeltaSeconds){
     Super::Tick(DeltaSeconds);
      APawn* PlayerPawn = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
+        GetBlackboardComponent()->ClearValue(TEXT("PlayerLocation"));
+        if(PlayerPawn != nullptr){
+         GetBlackboardComponent()->SetValueAsVector(TEXT("PlayerLocation"), PlayerPawn->GetActorLocation());
 
+        }
      if(LineOfSightTo(PlayerPawn)){
 
-         GetBlackboardComponent()->SetValueAsVector(TEXT("PlayerLocation"), PlayerPawn->GetActorLocation());
          GetBlackboardComponent()->SetValueAsVector(TEXT("LastKnownPlayerLocation"), PlayerPawn->GetActorLocation());
      } else {
-         GetBlackboardComponent()->ClearValue(TEXT("PlayerLocation"));
+         //GetBlackboardComponent()->ClearValue(TEXT("PlayerLocation"));
      }
     
 }
