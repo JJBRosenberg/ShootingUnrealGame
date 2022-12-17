@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "SecondShooterGameMode.h"
+#include "GameFramework/Actor.h"
 #include "KillThemAllGameMode.generated.h"
 
 /**
@@ -15,7 +16,9 @@ class SECONDSHOOTER_API AKillThemAllGameMode : public ASecondShooterGameMode
 	GENERATED_BODY()
 public:
 	virtual void PawnKilled(APawn* PawnKilled) override;
-	
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void MyBPEvent();
 
 
 private:
