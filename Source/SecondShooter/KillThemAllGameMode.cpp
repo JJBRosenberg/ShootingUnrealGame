@@ -7,7 +7,7 @@
 void AKillThemAllGameMode::PawnKilled(APawn* PawnKilled){
     Super::PawnKilled(PawnKilled);
     APlayerController* PlayerController = Cast<APlayerController>(PawnKilled->GetController());
-    MyBPEvent();
+    //
     if(PlayerController != nullptr){
         //EndGame(false);
     }

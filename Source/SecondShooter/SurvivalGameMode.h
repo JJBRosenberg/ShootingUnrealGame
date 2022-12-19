@@ -20,7 +20,9 @@ class SECONDSHOOTER_API ASurvivalGameMode : public ASecondShooterGameMode
 
 public:
 	virtual void PawnKilled(APawn* PawnKilled) override;
-
+	
+	UFUNCTION(BlueprintImplementableEvent)
+	void MyBPEvent();
 
 	UFUNCTION(BlueprintCallable)
 	bool Pay(int cost);

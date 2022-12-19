@@ -17,8 +17,7 @@ class SECONDSHOOTER_API AKillThemAllGameMode : public ASecondShooterGameMode
 public:
 	virtual void PawnKilled(APawn* PawnKilled) override;
 
-	UFUNCTION(BlueprintImplementableEvent)
-	void MyBPEvent();
+	
 
 
 private:
