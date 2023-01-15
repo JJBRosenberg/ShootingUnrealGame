@@ -14,6 +14,8 @@ class ASecondShooterGameMode : public AGameModeBase
 public:
 	//ASecondShooterGameMode();
 	virtual void PawnKilled(APawn* PawnKilled);
+
+	virtual void LoadLevel();
 };
 
 

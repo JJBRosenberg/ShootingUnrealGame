@@ -34,4 +34,5 @@ public:
 	int Score;
 private:
 	void EndGame(bool bIsPlayerWinner);
+	void LoadLevel();
 };

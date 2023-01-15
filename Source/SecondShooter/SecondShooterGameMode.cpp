@@ -7,3 +7,6 @@
 void ASecondShooterGameMode::PawnKilled(APawn* PawnKilled) {
 	
 }
+void ASecondShooterGameMode::LoadLevel() {
+	
+}

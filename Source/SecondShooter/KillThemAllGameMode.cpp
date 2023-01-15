@@ -16,7 +16,7 @@ void AKillThemAllGameMode::PawnKilled(APawn* PawnKilled){
             return;
         }
     }
-    //EndGame(true);
+    EndGame(true);
 }
 void AKillThemAllGameMode::EndGame(bool bIsPlayerWinner){
     for(AController* Controller : TActorRange<AController>(GetWorld())) {

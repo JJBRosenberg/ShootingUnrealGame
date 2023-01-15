@@ -33,9 +33,14 @@ bool ASurvivalGameMode::Pay(int cost) {
 }
 void ASurvivalGameMode::EndGame(bool bIsPlayerWinner){
     
-    MyBPEvent();
+    
     for(AController* Controller : TActorRange<AController>(GetWorld())) {
-        //bool bIsWinner = Controller->IsPlayerController() == bIsPlayerWinner;
-        //Controller->GameHasEnded(Controller->GetPawn(), bIsWinner);
+        bool bIsWinner = Controller->IsPlayerController() == bIsPlayerWinner;
+        Controller->GameHasEnded(Controller->GetPawn(), bIsWinner);
     }
+}
+
+void ASurvivalGameMode::LoadLevel(){
+    
+    MyBPEvent();
 }

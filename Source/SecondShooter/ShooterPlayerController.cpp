@@ -1,8 +1,12 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "ShooterPlayerController.h"
+#include "Kismet/GameplayStatics.h"
 #include "Blueprint/UserWidget.h"
 #include "TimerManager.h"
+#include "SecondShooterGameMode.h"  
+
+
 void AShooterPlayerController::BeginPlay() {
     Super::BeginPlay();
         HUDScreen = CreateWidget(this, HUDClass);
@@ -29,6 +33,14 @@ void AShooterPlayerController::GameHasEnded(class AActor* EndGameFocus, bool bIs
     }
    
    
-    GetWorldTimerManager().SetTimer(RestartTimer, this, &APlayerController::RestartLevel,RestartDelay);
+    GetWorldTimerManager().SetTimer(RestartTimer, this, &AShooterPlayerController::MainMenu,RestartDelay);
+}
+
+void AShooterPlayerController::MainMenu(){
+    ASecondShooterGameMode* GameMode = GetWorld()->GetAuthGameMode<ASecondShooterGameMode>();
+		if(GameMode != nullptr){
+			GameMode->LoadLevel();
+		}
+    
 }
 
