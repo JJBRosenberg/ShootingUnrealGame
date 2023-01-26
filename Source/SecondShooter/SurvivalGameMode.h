@@ -30,9 +30,23 @@ public:
 	UFUNCTION(BlueprintPure)
 	int GetScore() const;
 
+	UFUNCTION(BlueprintPure)
+	int GetTime() const;
+
+	UFUNCTION(BlueprintCallable)
+	bool getDone();
+
+	UPROPERTY(VisibleAnywhere)
+	bool isDone = false;
+	
+	UFUNCTION(BlueprintCallable)
+	void AddTime(float numb) ;
+
 	UPROPERTY(VisibleAnywhere)
 	int Score;
-private:
+	UPROPERTY(VisibleAnywhere)
+	float TimeCount;
 	void EndGame(bool bIsPlayerWinner);
+private:
 	void LoadLevel();
 };

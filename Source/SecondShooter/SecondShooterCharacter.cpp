@@ -10,6 +10,8 @@
 #include "Gun.h"
 #include "Components/CapsuleComponent.h"
 #include "SecondShooterGameMode.h"
+#include "KillThemAllGameMode.h"
+#include "SurvivalGameMode.h"
 //////////////////////////////////////////////////////////////////////////
 // ASecondShooterCharacter
 
@@ -64,6 +66,7 @@ void ASecondShooterCharacter::SetupPlayerInputComponent(class UInputComponent* P
 	// Bind jump events
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+	//PlayerInputComponent->BindAction("EndGame", IE_Pressed, this, &ASurvivalGameMode::EndGame);
 
 	// Bind fire event
 	PlayerInputComponent->BindAction("Shoot", IE_Pressed, this, &ASecondShooterCharacter::Shoot);
