@@ -115,7 +115,7 @@ private:
 	TSubclassOf<AGun> GunClass;
 
 	UPROPERTY(EditDefaultsOnly)
-	float MaxHealth = 100;
+	float MaxHealth;
 
 
 	UPROPERTY(VisibleAnywhere)
