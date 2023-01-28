@@ -7,10 +7,10 @@ void ASurvivalGameMode::PawnKilled(APawn* PawnKilled){
     UE_LOG(LogTemp, Warning, TEXT("Score inscread" ));
     Super::PawnKilled(PawnKilled);
 
-    isDone = true;
-    EndGame(true);
+    
+    //EndGame(true);
 
-    /*APlayerController* PlayerController = Cast<APlayerController>(PawnKilled->GetController());
+    APlayerController* PlayerController = Cast<APlayerController>(PawnKilled->GetController());
     Score += 100;
     if(PlayerController != nullptr){
         EndGame(false);
@@ -20,7 +20,7 @@ void ASurvivalGameMode::PawnKilled(APawn* PawnKilled){
             return;
         }
     }
-    EndGame(true);*/
+    EndGame(true);
     
 }
 
@@ -48,7 +48,7 @@ bool ASurvivalGameMode::Pay(int cost) {
 }
 void ASurvivalGameMode::EndGame(bool bIsPlayerWinner){
     
-    
+    isDone = true;
     for(AController* Controller : TActorRange<AController>(GetWorld())) {
         bool bIsWinner = Controller->IsPlayerController() == bIsPlayerWinner;
         Controller->GameHasEnded(Controller->GetPawn(), bIsWinner);

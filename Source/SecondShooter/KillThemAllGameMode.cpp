@@ -7,7 +7,7 @@
 void AKillThemAllGameMode::PawnKilled(APawn* PawnKilled){
     Super::PawnKilled(PawnKilled);
     APlayerController* PlayerController = Cast<APlayerController>(PawnKilled->GetController());
-    AddPoints();
+    //AddPoints();
     if(PlayerController != nullptr){
         EndGame(false);
     }
@@ -18,9 +18,23 @@ void AKillThemAllGameMode::PawnKilled(APawn* PawnKilled){
     }
     EndGame(true);
 }
+void AKillThemAllGameMode::AddTime(float numb) {
+    TimeCount += numb;
+}
+int AKillThemAllGameMode::GetTime() const {
+    return TimeCount;
+}
+bool AKillThemAllGameMode::getDone(){
+    return isDone;
+}
 void AKillThemAllGameMode::EndGame(bool bIsPlayerWinner){
+    isDone = true;
     for(AController* Controller : TActorRange<AController>(GetWorld())) {
         bool bIsWinner = Controller->IsPlayerController() == bIsPlayerWinner;
         Controller->GameHasEnded(Controller->GetPawn(), bIsWinner);
     }
+}
+void AKillThemAllGameMode::LoadLevel(){
+    
+    MyBPEvent();
 }

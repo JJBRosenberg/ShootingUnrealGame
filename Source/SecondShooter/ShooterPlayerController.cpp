@@ -18,7 +18,6 @@ void AShooterPlayerController::BeginPlay() {
 void AShooterPlayerController::GameHasEnded(class AActor* EndGameFocus, bool bIsWinner) {
     Super::GameHasEnded(EndGameFocus, bIsWinner);
     HUDScreen->RemoveFromViewport();
-    UE_LOG(LogTemp, Warning, TEXT("KILLEd"));
     if(bIsWinner){
         UUserWidget* WinScreen = CreateWidget(this, WinScreenClass);
         if(WinScreen != nullptr){
@@ -35,12 +34,13 @@ void AShooterPlayerController::GameHasEnded(class AActor* EndGameFocus, bool bIs
    
     GetWorldTimerManager().SetTimer(RestartTimer, this, &AShooterPlayerController::MainMenu,RestartDelay);
 }
-
 void AShooterPlayerController::MainMenu(){
-    ASecondShooterGameMode* GameMode = GetWorld()->GetAuthGameMode<ASecondShooterGameMode>();
+        UE_LOG(LogTemp, Warning, TEXT("KILLEd"));
+        ASecondShooterGameMode* GameMode = GetWorld()->GetAuthGameMode<ASecondShooterGameMode>();
 		if(GameMode != nullptr){
 			GameMode->LoadLevel();
 		}
     
 }
+
 

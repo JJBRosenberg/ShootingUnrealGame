@@ -18,8 +18,28 @@ public:
 	virtual void PawnKilled(APawn* PawnKilled) override;
 
 	UFUNCTION(BlueprintImplementableEvent)
+	void MyBPEvent();
+
+	UFUNCTION(BlueprintCallable)
+	void AddTime(float numb) ;
+
+	UFUNCTION(BlueprintPure)
+	int GetTime() const;
+
+	UFUNCTION(BlueprintImplementableEvent)
 	void AddPoints();
 
-	void EndGame(bool bIsPlayerWinner);
+	UPROPERTY(VisibleAnywhere)
+	float TimeCount;
 
+	UFUNCTION(BlueprintCallable)
+	bool getDone();
+
+	UPROPERTY(VisibleAnywhere)
+	bool isDone = false;
+
+
+	void EndGame(bool bIsPlayerWinner);
+private:
+	void LoadLevel();
 };
