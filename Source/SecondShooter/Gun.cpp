@@ -37,24 +37,24 @@ void AGun::Tick(float DeltaTime)
 void AGun::PullTrigger() {
 	UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, Mesh, TEXT("MuzzleFlashSocket"));
 	UGameplayStatics::SpawnSoundAttached(MuzzleSound, Mesh, TEXT("MuzzleFlashSocket"));
-	FHitResult Hit;
+	FHitResult Target;
 	FVector ShotDirection;
-	bool bSucess = GunTrace(Hit, ShotDirection);
-	if(bSucess){
-	UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ImpactEffect, Hit.Location,ShotDirection.Rotation() );
+	bool isHit = GunTrace(Target, ShotDirection);
+	if(isHit){
+	UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ImpactEffect, Target.Location,ShotDirection.Rotation() );
 	
-	UGameplayStatics::SpawnSoundAtLocation(GetWorld(), ImpactSound, Hit.Location);
-	AActor* HitActor =  Hit.GetActor();
+	UGameplayStatics::SpawnSoundAtLocation(GetWorld(), ImpactSound, Target.Location);
+	AActor* ShotActor =  Target.GetActor();
 
-	if(HitActor != nullptr){
-		FPointDamageEvent DamageEvent(Damage, Hit, ShotDirection, nullptr);
+	if(ShotActor != nullptr){
+		FPointDamageEvent DamageEvent(Damage, Target, ShotDirection, nullptr);
 		AController *OwnerController = GetOwnerController();
-		HitActor->TakeDamage(Damage, DamageEvent, OwnerController,this);
+		ShotActor->TakeDamage(Damage, DamageEvent, OwnerController,this);
 		}
 	}
 }
 
-bool AGun::GunTrace(FHitResult &Hit, FVector& ShotDirection){
+bool AGun::GunTrace(FHitResult &Target, FVector& ShotDirection){
 	AController *OwnerController = GetOwnerController();
 	if(OwnerController == nullptr) return false;
 	FVector Location;
@@ -66,7 +66,7 @@ bool AGun::GunTrace(FHitResult &Hit, FVector& ShotDirection){
 	FCollisionQueryParams Params;
 	Params.AddIgnoredActor(this);
 	Params.AddIgnoredActor(GetOwner());
-	return GetWorld()->LineTraceSingleByChannel(Hit,Location, End, ECollisionChannel::ECC_GameTraceChannel2, Params);
+	return GetWorld()->LineTraceSingleByChannel(Target,Location, End, ECollisionChannel::ECC_GameTraceChannel2, Params);
 }
 
 AController* AGun::GetOwnerController() const {

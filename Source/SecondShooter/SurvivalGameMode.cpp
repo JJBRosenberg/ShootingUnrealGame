@@ -4,12 +4,7 @@
 #include "SurvivalGameMode.h"
 
 void ASurvivalGameMode::PawnKilled(APawn* PawnKilled){
-    UE_LOG(LogTemp, Warning, TEXT("Score inscread" ));
     Super::PawnKilled(PawnKilled);
-
-    
-    //EndGame(true);
-
     APlayerController* PlayerController = Cast<APlayerController>(PawnKilled->GetController());
     Score += 100;
     if(PlayerController != nullptr){
