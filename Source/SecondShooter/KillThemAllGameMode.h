@@ -26,6 +26,9 @@ public:
 	UFUNCTION(BlueprintPure)
 	int GetTime() const;
 
+	UFUNCTION(BlueprintPure)
+	int GetScore() const;
+	
 	UFUNCTION(BlueprintImplementableEvent)
 	void AddPoints();
 
@@ -38,6 +41,8 @@ public:
 	UPROPERTY(VisibleAnywhere)
 	bool isDone = false;
 
+	UPROPERTY(VisibleAnywhere)
+	int Score;
 
 	void EndGame(bool bIsPlayerWinner);
 private:

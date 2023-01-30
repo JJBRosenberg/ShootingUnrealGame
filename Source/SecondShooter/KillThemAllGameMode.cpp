@@ -7,19 +7,24 @@
 void AKillThemAllGameMode::PawnKilled(APawn* PawnKilled){
     Super::PawnKilled(PawnKilled);
     APlayerController* PlayerController = Cast<APlayerController>(PawnKilled->GetController());
-    //AddPoints();
+    
     if(PlayerController != nullptr){
         EndGame(false);
     }
     for(AMyAIController* Controller : TActorRange< AMyAIController>(GetWorld())){
         if(!Controller->IsDead()){
+            Score += 100;
             return;
         }
     }
     EndGame(true);
+    
 }
 void AKillThemAllGameMode::AddTime(float numb) {
     TimeCount += numb;
+}
+int AKillThemAllGameMode::GetScore() const {
+    return Score;
 }
 int AKillThemAllGameMode::GetTime() const {
     return TimeCount;

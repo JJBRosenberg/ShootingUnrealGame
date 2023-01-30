@@ -6,12 +6,14 @@
 void ASurvivalGameMode::PawnKilled(APawn* PawnKilled){
     Super::PawnKilled(PawnKilled);
     APlayerController* PlayerController = Cast<APlayerController>(PawnKilled->GetController());
-    Score += 100;
+    
+    
     if(PlayerController != nullptr){
         EndGame(false);
     }
     for(AMyAIController* Controller : TActorRange< AMyAIController>(GetWorld())){
         if(!Controller->IsDead()){
+            Score += 100;
             return;
         }
     }
